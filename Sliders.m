@@ -55,8 +55,8 @@ function Sliders_OpeningFcn(hObject, eventdata, handles, varargin)
 % varargin   command line arguments to Sliders (see VARARGIN)
 
 
-handles.dirprefix = 'OutputFiles/';
-listing = dir('OutputFiles');
+handles.dirprefix = 'FrameRemovedImages/';
+listing = dir('FrameRemovedImages');
 
 if ~exist('ControlFiles', 'dir')
     % Folder does not exist so create it.
