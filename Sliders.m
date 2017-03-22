@@ -93,7 +93,8 @@ end
 if(reloadstate == 1)
     fname = strcat(handles.controlprefix, 'permutation.txt');
     fileID = fopen(fname, 'r');
-    p = fread(fileID);
+    p = textscan(fileID, '%d');
+    p = cell2mat(p);
     fclose(fileID);
 end
 
@@ -103,7 +104,7 @@ if(reloadstate == 0)
 
     fname = strcat(handles.controlprefix, 'permutation.txt');
     fileID = fopen(fname, 'w');
-    fwrite(fileID, p);
+    fprintf(fileID, '%d\n', p);
     fclose(fileID);
 end
 
