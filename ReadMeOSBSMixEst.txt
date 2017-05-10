@@ -3,13 +3,11 @@ How to run the Graphical User Interface (GUI) for assigning abundances of materi
 __________________
 Do this the first time
 
-Step 1.  Put the directory AbundanceEstimation and all subdirectories on the MATLAB path.  One way to do that is to run
-pathtool
-from the MATLAB command line.
-A window will open containing all the directories on your path.
+Step 1.  Download the osbs-pictures directory from github, and put the directory osbs-pictures and all subdirectories on the MATLAB path.
+One way to do that is to run pathtool from the MATLAB command line. A window will open containing all the directories on your path.
 Click on Add with Subfolders…
-Navigate the file system so you select the directory AbundanceEstimation and click Open.
-AbundanceEstimation and the subdirectory should show up in your path.
+Navigate the file system so you select the directory osbs-pictures and click Open.
+osbs-pictures and the subdirectory should show up in your path.
 
 Step 2.  Run 
 
