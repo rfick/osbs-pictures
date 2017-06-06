@@ -1,4 +1,4 @@
-How to run the Graphical User Interface (GUI) for assigning abundances of materials in frames from OSBS.
+﻿How to run the Graphical User Interface (GUI) for assigning abundances of materials in frames from OSBS.
 
 __________________
 Do this the first time
@@ -42,3 +42,4 @@ _______________________________
 You should be able to stop and restart the program and it will start at the last image you were looking at, AS LONG AS YOU DON’T CHANGE ANY OF THE FILES IN THE DIRECTORY (they keep track of where you are).  Just run “guide” again and click on the green arrow.  Then you can resume steps 5,6, and 7 above.
 
 
+Yuxi was here.
